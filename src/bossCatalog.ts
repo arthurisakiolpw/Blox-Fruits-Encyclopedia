@@ -1,6 +1,6 @@
 export type BossInfo={name:string;kind:'Boss'|'Raid Boss'|'Awakened Boss'|'Sea Event Boss';sea:string;island:string;level?:number;spawnTh:string;spawnEn:string;image?:string};
 export const bossCatalog:BossInfo[]=[
-{name:'The Gorilla King',kind:'Boss',sea:'First Sea',island:'Jungle',level:25,spawnTh:'เกิดตามเวลาในบริเวณ Gorilla King ที่ Jungle',spawnEn:'Respawns at the Gorilla King area in Jungle.'},
+{name:'The Gorilla King',image:'https://cdn.wikiwiki.jp/to/w/bloxfruits/The%20Gorilla%20King/%3A%3Aattach/IMG_1963.jpeg?rev=77e6a7641fe5a7f158c183be55aa99b0&t=20250224181643',kind:'Boss',sea:'First Sea',island:'Jungle',level:25,spawnTh:'เกิดตามเวลาในบริเวณ Gorilla King ที่ Jungle',spawnEn:'Respawns at the Gorilla King area in Jungle.'},
 {name:'Chef',kind:'Boss',sea:'First Sea',island:'Pirate Village',level:55,spawnTh:'เกิดตามเวลาที่ Pirate Village',spawnEn:'Timed respawn at Pirate Village.'},
 {name:'The Saw',kind:'Boss',sea:'First Sea',island:'Middle Town',level:100,spawnTh:'ปรากฏที่ Middle Town ตามรอบเวลาของเซิร์ฟเวอร์',spawnEn:'Appears at Middle Town on a server timer.'},
 {name:'Yeti',kind:'Boss',sea:'First Sea',island:'Frozen Village',level:105,spawnTh:'เกิดตามเวลาที่ Frozen Village',spawnEn:'Timed respawn at Frozen Village.'},
