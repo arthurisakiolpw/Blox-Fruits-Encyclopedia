@@ -368,7 +368,7 @@ export const fruits:Fruit[] = [
     "th": "แม่เหล็ก",
     "icon": "🧲",
     "type": "Natural",
-    "beli": 0,
+    "beli": 6000000,
     "rarity": "Mythical"
   },
   {
