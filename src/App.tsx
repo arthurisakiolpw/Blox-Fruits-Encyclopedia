@@ -5,7 +5,7 @@ type Category='fruits'|'monsters'|'bosses';
 type RecordItem={key:string;en:string;th:string;category:Category;type?:string;rarity?:string;beli?:number;level?:number;island?:string;sea?:string};
 const records:RecordItem[]=[...fruits.map(f=>({key:'f'+f.id,en:f.en,th:f.th,category:'fruits' as Category,type:f.type,rarity:f.rarity,beli:f.beli})),...enemies.map(e=>({key:'e'+e.id,en:e.en,th:e.th,category:(e.kind==='Boss'?'bosses':'monsters') as Category,level:e.level,island:e.island,sea:e.sea}))];
 const tabs:{id:Category;th:string;en:string;symbol:string}[]=[{id:'fruits',th:'ผลปีศาจ',en:'Fruits',symbol:'◆'},{id:'monsters',th:'มอนสเตอร์',en:'Monsters',symbol:'♟'},{id:'bosses',th:'บอส',en:'Bosses',symbol:'♛'}];
-function Art({name,large=false}:{name:string;large?:boolean}){return <div className={'art '+(large?'art-large':'')}><span>{name.slice(0,2).toUpperCase()}</span><small>IMAGE PENDING</small></div>}
+function Art({name,large=false}:{name:string;large?:boolean}){const image=name==='Magnet'?'https://i.postimg.cc/2S7qNH21/latest-cb-20260905110645.webp':null;return <div className={'art '+(large?'art-large':'')}>{image?<img src={image} alt={'Blox Fruits '+name+' fruit icon'} loading="lazy"/>:<><span>{name.slice(0,2).toUpperCase()}</span><small>IMAGE PENDING</small></>}</div>}
 export default function App(){
 const[lang,setLang]=useState<'th'|'en'>('th');const[tab,setTab]=useState<Category>('fruits');const[search,setSearch]=useState('');const[type,setType]=useState('All');const[chosen,setChosen]=useState('f42');const[showList,setShowList]=useState(false);
 const t=(th:string,en:string)=>lang==='th'?th:en;
