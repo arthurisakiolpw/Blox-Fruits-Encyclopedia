@@ -363,6 +363,15 @@ export const fruits:Fruit[] = [
     "rarity": "Mythical"
   },
   {
+    "id": 42,
+    "en": "Magnet",
+    "th": "แม่เหล็ก",
+    "icon": "🧲",
+    "type": "Natural",
+    "beli": 0,
+    "rarity": "Mythical"
+  },
+  {
     "id": 41,
     "en": "Dragon",
     "th": "มังกร",
@@ -373,4 +382,5 @@ export const fruits:Fruit[] = [
   }
 ];
 export const priceReviewed='2026-10-26';
+// Magnet price is pending verification; zero is a placeholder, not a free dealer price.
 export const sources = [{label:'Blox Fruits fruit roster',url:'https://blox-fruits-wiki.wiki/fruits/list/'},{label:'Blox Fruits Wiki (community)',url:'https://toyboxvalues.com/blox-fruits/fruits/'}];
