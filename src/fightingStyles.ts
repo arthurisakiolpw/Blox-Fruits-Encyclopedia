@@ -8,7 +8,7 @@ export const fightingStyles:FightingStyle[]=[
     "beli": 0,
     "fragments": 0,
     "requirements": "ได้รับอัตโนมัติ",
-    "notes": "มี 2 สกิล; เมื่อเปลี่ยนสไตล์แล้วไม่สามารถซื้อ Combat คืนได้ตามปกติ",
+    "notes": "คำเตือนจากประสบการณ์ผู้เล่น: ผู้เล่นเลเวล 3000 รายงานว่ากลับมาใช้ Combat ได้ด้วยการรีเซ็ตที่ Prison แต่เลเวล 2995 ไม่สำเร็จ และมีผู้เล่นเลเวล 2800 เสียผล Dragon จากการทดลอง ห้ามลบผลมีค่าเพื่อทดสอบ วิธีนี้ยังไม่ยืนยันจากแหล่งทางการ",
     "moves": [
       {
         "key": "Z",
@@ -140,7 +140,23 @@ export const fightingStyles:FightingStyle[]=[
     "fragments": 5000,
     "requirements": "Electric Mastery 400 และเควสวิ่งจับเวลา",
     "notes": "ต้องผ่านเควสของ Previous Hero",
-    "moves": []
+    "moves": [
+      {
+        "key": "Z",
+        "name": "Electric Rampage",
+        "mastery": 110
+      },
+      {
+        "key": "X",
+        "name": "Lightning Thrust",
+        "mastery": 220
+      },
+      {
+        "key": "C",
+        "name": "Thunderclap and Flash",
+        "mastery": 330
+      }
+    ]
   },
   {
     "name": "Dragon Talon",
