@@ -2,3 +2,45 @@
 .version-badge{display:inline-flex;align-items:center;white-space:nowrap;padding:5px 9px;border:1px solid #9366ff;border-radius:999px;background:linear-gradient(135deg,#432082,#1e2557);color:#e5d7ff;font-size:11px;font-weight:900;letter-spacing:.5px;box-shadow:0 0 12px #713bdf55}@media(max-width:650px){.version-badge{font-size:9px;padding:4px 6px}}
 
 .art img{width:100%;height:100%;object-fit:contain;display:block;border-radius:inherit;background:#f3f5f8}
+
+
+/* v1.0 encyclopedia visual refresh */
+:root{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#eaf3ff}
+body{background:#050b17}
+.wiki{background:radial-gradient(ellipse at 70% 0%,#143b68 0%,transparent 32%),radial-gradient(ellipse at 0% 40%,#101f46 0%,transparent 40%),#060e1d}
+.wiki-header{height:auto;min-height:88px;backdrop-filter:blur(20px);background:#081428ed;border-bottom:1px solid #4b77ae55;box-shadow:0 12px 30px #0004}
+.wiki-header nav{justify-content:center;gap:5px}
+.wiki-header nav button{font-size:12px;border:1px solid transparent;border-radius:12px;transition:background .2s,border-color .2s,transform .2s;padding:10px}
+.wiki-header nav button:hover{transform:translateY(-2px);background:#183f69}
+.wiki-header nav button.active{background:linear-gradient(140deg,#1663c2,#12386e);border-color:#4baeff}
+.wiki-header nav i{font-size:17px}
+.wiki-banner{padding:50px 18px;background:radial-gradient(circle at 15% 15%,#2974ae77,transparent 34%),radial-gradient(circle at 85% 70%,#4c2a9577,transparent 38%),linear-gradient(125deg,#102c50,#0a1833)}
+.wiki-banner h1{font-weight:950;letter-spacing:-1px;font-size:clamp(31px,4vw,54px)}
+.wiki-stats{padding:20px 12px;gap:12px}
+.wiki-stats div{border:1px solid #426d9d66;box-shadow:0 10px 30px #0003;border-radius:16px}
+.wiki-columns{gap:16px;padding:0 18px}
+.wiki-list,.wiki-panel,.wiki-intro{border-color:#36547b99;border-radius:18px;background:linear-gradient(150deg,#132943ef,#0a192bef);box-shadow:0 12px 40px #0004}
+.wiki-panel{padding:22px;margin-top:16px}
+.wiki-intro{padding:22px;gap:20px}
+.wiki-heading h2{letter-spacing:-1px;line-height:1.1;overflow-wrap:anywhere}
+.wiki-list{padding:15px}
+.wiki-list-item{border-radius:11px;transition:background .18s,border-color .18s}
+.wiki-list-item:hover{background:#23436b}
+.wiki-list-item.selected{background:linear-gradient(110deg,#134b8b,#182d56);border-color:#59b5ff}
+.wiki-filters button{border-radius:999px}
+.wiki-skills article{padding:12px;border-radius:13px}
+.wiki-skills article b{font-size:14px}
+.wiki-skills article p{font-size:12px}
+.wiki-description{border-radius:14px}
+.wiki-panel h3{font-size:19px;color:#fff}
+.wiki-panel li{padding:4px 0;color:#c1d0e5;line-height:1.6}
+.leveling-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px;margin:16px 0 26px}
+.leveling-steps button{display:flex;flex-direction:column;text-align:left;gap:5px;padding:13px;border-radius:12px}
+.leveling-steps button b{color:#74c8ff;font-size:12px}
+.leveling-steps button span{font-weight:700}
+.finale-sequence{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px}
+.finale-sequence span{padding:9px 12px;border-radius:10px;background:#16385d;border:1px solid #356ca0;font-size:12px}
+.finale-sequence b{color:#7cd8ff}
+button:focus-visible,input:focus-visible{outline:2px solid #8ad7ff;outline-offset:2px}
+@media(max-width:950px){.wiki-header{flex-wrap:wrap;justify-content:center;padding:12px}.wiki-header nav{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start;padding-bottom:4px}.wiki-header nav button{white-space:nowrap}.wiki-columns{grid-template-columns:210px minmax(0,1fr)}}
+@media(max-width:650px){.wiki-header{position:relative;min-height:0;gap:8px}.wiki-header nav{order:3}.wiki-header nav button{font-size:11px;padding:9px}.wiki-banner{padding:30px 12px}.wiki-columns{padding:0 10px}.wiki-panel{padding:16px}.wiki-intro{padding:12px}.wiki-list.open{max-height:480px}.leveling-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.wiki-stats{padding:12px 8px}.wiki-stats div{padding:10px 5px}}
