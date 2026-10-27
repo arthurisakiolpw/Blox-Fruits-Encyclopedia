@@ -84,7 +84,7 @@ export const fightingStyles:FightingStyle[]=[
     "beli": 0,
     "fragments": 0,
     "requirements": "ทำ Island Secrets 40/40 เควส รวม The Finale จากนั้นผ่านภารกิจ Awakened Boss ของ Secrets Master",
-    "notes": "ฟรี 0 Beli และ 0 Fragments; ต้องใช้ Combat ธรรมดาเก็บ Awakened Boss Index แบบไม่ซ้ำชนิด บอสชนิดเดิมที่กำจัดซ้ำไม่นับเพิ่ม; ตรวจสอบจำนวนชนิดที่กำหนดในเกมก่อนทำจริง",
+    "notes": "ฟรี 0 Beli และ 0 Fragments; ต้องใช้ Combat ธรรมดาเก็บ Awakened Boss Index ให้ครบ 10 ชนิดไม่ซ้ำกัน; บอสชนิดเดิมที่กำจัดซ้ำไม่นับเพิ่ม; ดูรายชื่อและวิธีเปิดบอสใน awakenedBosses.ts",
     "moves": [{"key":"Z","name":"Meteor Tackle","mastery":0},{"key":"X","name":"Ground Breaker","mastery":100},{"key":"C","name":"Charged Punch","mastery":200}]
   },
   {
