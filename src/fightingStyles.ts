@@ -81,11 +81,11 @@ export const fightingStyles:FightingStyle[]=[
     "sea": "First Sea",
     "teacher": "Secrets Master",
     "location": "Middle Town",
-    "beli": null,
-    "fragments": null,
-    "requirements": "เควส First Sea Island Secrets และเงื่อนไข Secrets Master",
-    "notes": "Update 30; ราคาและรายละเอียดสกิลรอตรวจสอบ",
-    "moves": []
+    "beli": 0,
+    "fragments": 0,
+    "requirements": "ทำ Island Secrets 40/40 เควส รวม The Finale จากนั้นผ่านภารกิจ Awakened Boss ของ Secrets Master",
+    "notes": "ฟรี 0 Beli และ 0 Fragments; ต้องใช้ Combat ธรรมดาทำภารกิจบอสตามเงื่อนไข; ตรวจสอบจำนวนบอสและขั้นตอนในเกมก่อนทำจริง",
+    "moves": [{"key":"Z","name":"Meteor Tackle","mastery":0},{"key":"X","name":"Ground Breaker","mastery":100},{"key":"C","name":"Charged Punch","mastery":200}]
   },
   {
     "name": "Dragon Breath",
